@@ -10,11 +10,16 @@ function App() {
   return (
     <div className="App">
       <Greet/>
-      <Greet2/>
+      <Greet2 name='Panharith' codeName='The Man'/>
       <Welcome/>
       <Hello/>
+      <Greet2 name="Panharith" codeName="The Man">
+        <p>The Man of Men</p>
+      </Greet2>
       
-      
+      <Welcome name="Panharith" codeName="The Man">
+
+      </Welcome>
     </div>
   );
 }
