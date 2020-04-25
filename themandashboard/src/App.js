@@ -5,11 +5,15 @@ import Greet from './components/Greet'; // import Greet component from Greet.js
 import {Greet2} from './components/Greet'; // another way to import a component
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
+
 
 function App() {
   return (
     <div className="App">
-      <Greet/>
+      {
+      <Message/>
+      /* <Greet/>
       <Greet2 name='Panharith' codeName='The Man'/>
       <Welcome/>
       <Hello/>
@@ -19,7 +23,8 @@ function App() {
       
       <Welcome name="Panharith" codeName="The Man">
 
-      </Welcome>
+      </Welcome> */
+      }
     </div>
   );
 }
