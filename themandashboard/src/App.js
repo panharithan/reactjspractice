@@ -6,13 +6,15 @@ import {Greet2} from './components/Greet'; // another way to import a component
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 
 function App() {
   return (
     <div className="App">
       {
-      <Message/>
+      <Counter/>
+      // <Message/>
       /* <Greet/>
       <Greet2 name='Panharith' codeName='The Man'/>
       <Welcome/>
